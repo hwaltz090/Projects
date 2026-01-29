@@ -94,10 +94,3 @@ body {
         font-size: 20px;
         color: red;
     }
-    #links {
-        list-style-type: square;
-        text-align: center;
-        color: red;
-        list-style-position: inside;
-        font-size: 20px;
-    }
