@@ -20,6 +20,7 @@ body {
     p {
         text-align: center;
         font-size: 18px;
+        color: tan;
     }
    h2 {
         text-align: center;
@@ -29,7 +30,7 @@ body {
     h3 {
         text-align: center;
         font-size: 15px;
-        color: red;
+        color: tan;
     }
     hr {
         border: 1px solid red;
@@ -56,11 +57,18 @@ body {
         object-fit: contain;
     }
     nav a {
-        font-weight: bold;
         color: red;
-        text-decoration: underline;
-        margin: 0 15px;
         font-size: 20px;
+    }
+    nav a:hover {
+        color: whitesmoke;
+        font-size: 22px;
+        text-decoration: none;
+    }
+    footer {
+        font-size: 14px;
+        color: red;
+        margin-top: 20px;
+        padding: 10px;
         border-top: 4px solid red;
-        border-bottom: 4px solid red;
     }
