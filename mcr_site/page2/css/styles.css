@@ -61,4 +61,6 @@ body {
         text-decoration: underline;
         margin: 0 15px;
         font-size: 20px;
+        border-top: 4px solid red;
+        border-bottom: 4px solid red;
     }
