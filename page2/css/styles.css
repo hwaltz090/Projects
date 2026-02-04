@@ -1,96 +1,122 @@
 body {
     background-color: black;
-    color: beige;
-    width: 900px;
+    color: white;
+
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+#container {
+    background-color: black;
+    width: 80%;
     margin: 20px auto;
+    border: 4px solid red;
+    padding: 20px;
+
+}
+a {
+    color: red;
+}
+a:hover {
+    color: white;
+
+}
+header {
+    padding: 40px;
+    border-bottom: 2px solid red;
+}
+header h1 {
+    font-size: 50px;
+    color: red;
+}
+h2 {
+    font-size: 50px;
+    color: red;
+    text-align: center;
+}
+h4 {
+    font-size: 30px;
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+nav li {
+    display: inline;
+    padding: 20px
+}
+nav li a {
+    display: inline-block;
+    background-color: black;
+    color: red;
+    font-size: 25px;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    text-decoration: none;
+    border-radius: 5px;
     border: 2px solid red;
+}
+nav li a:hover {
+    background-color: red;
+    color: black;
+}
+main h2 {
+    text-align: center;
+    color: red;
+}
+.multi_col {
+    display: flex;
+}
+section, aside {
+    border-radius: 20px;
+    border: 2px solid red;
+    margin: 20px;
     padding: 20px;
 }
-  #container {
+section {
+    width: 75%;
+}
+aside {
+    width: 50%;
+}
+footer {
+    text-align: center;
+    padding: 40px 0;
+    border-top: 2px solid red;
+    margin-top: 20px;
+}
+.links {
+    color: red;
+}
+#page3banner {
+    width: 100%;
+    height: auto;
+}
+hr {
+    border: 1px solid red;
+}
+.band {
+    width: 75%;
     border: 2px solid red;
-    padding: 10px;
-    margin: 20px auto;
-
-    }
-    h1 {
-      text-align: center;
-      font-size: 36px;
-      color: red;
-    }
-    p {
-        text-align: center;
-        font-size: 18px;
-        color: tan;
-    }
-   h2 {
-        text-align: center;
-        font-size: 24px;
-        color: red;
-    }
-    h3 {
-        text-align: center;
-        font-size: 15px;
-        color: tan;
-    }
-    hr {
-        border: 1px solid red;
-    }
-    ul {
-        list-style-type: square;
-        text-align: center;
-        color: red;
-        list-style-position: inside;
-        font-size: 20px;
-
-    }
-    #ai {
-        width: 800px;
-         margin: 20px;
-        display: block;
-        height: 470px;
-        object-fit: cover;
-    }
-    #band {
-        width:500px;
-        display:block;
-        margin: 10px auto;
-        object-fit: contain;
-    }
-    nav a {
-        color: red;
-        font-size: 20px;
-    }
-    nav a:hover {
-        color: whitesmoke;
-        font-size: 22px;
-        text-decoration: none;
-    }
-    footer {
-        font-size: 14px;
-        color: red;
-        margin-top: 20px;
-        padding: 10px;
-        border-top: 4px solid red;
-    }
-
-    #header_1 {
-        border: 2px solid red;
-        width: 900px;
-    }
-
-    #header_2 {
-        display: block;
-        margin: 0 auto;
-        width: 100%;
-    }
-    #footer1 {
-        display: block;
-        margin: 20px auto;
-        width: 400px;
-        border: 2px solid red;
-    }
-    h4 {
-        text-align: center;
-        font-size: 20px;
-        color: red;
-    }
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 40px;
+}
