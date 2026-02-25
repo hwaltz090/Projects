@@ -1,8 +1,9 @@
 # class Projects
 
 <ul>
-    <li><a href="page2/index.html" target="_blank">My Chemical Romance</a></li>
-    <li><a href="page2/album1.html" target="_blank">Album 1</a></li>
-    <li><a href="page2/album2.html" target="_blank">Album 2</a></li>
-    <li><a href="page2/album3.html" target="_blank">Album 3</a></li>
+    <li><a href="page2/index.html" target="_blank">movies</a></li>
+    <li><a href="page2/childsplay.html" target="_blank">chucky</a></li>
+    <li><a href="page2/scream.html" target="_blank">scream</a></li>
+    <li><a href="page2/shining.html" target="_blank">shining</a></li>
+    <li><a href="page2/1000c.html" target="_blank">1000 corpses</a></li>cv                    fdxcs
 </ul>
