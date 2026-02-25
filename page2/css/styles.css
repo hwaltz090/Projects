@@ -2,6 +2,11 @@
 
 body {
     background-color: gray;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
 }
 
 .container {
@@ -9,8 +14,9 @@ body {
     padding: 10px;
     border: 1px solid white;
     text-align: center;
-    margin: 100px;
+    margin: 10px;
     margin-top: 25px;
+    color: gray
 }
 a {
     color: white;
@@ -110,6 +116,8 @@ iframe {
     margin: 0 auto;
     border: 4px solid black;
     border-radius: 10px;
+    height: 315;
+    width: 560;
 }
 h1 {
     text-align: center;
@@ -156,4 +164,10 @@ aside {
     display: flex;
     color: gray;
     font-size: 40px;
+    gap: 10px;
+}
+#cpaside {
+    color: gray;
+    font-size: 25px;
+    width: 75%;
 }
